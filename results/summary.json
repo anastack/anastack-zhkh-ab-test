@@ -1,0 +1,63 @@
+{
+  "groups": {
+    "A": {
+      "clients_opened": 751,
+      "attempts": 1308,
+      "successes": 651,
+      "payment_conversion": 0.49770642201834864,
+      "cluster_variance": 0.00018518534637651876,
+      "clients_with_success": 493,
+      "client_conversion": 0.6564580559254327,
+      "funnel_counts": [
+        1308,
+        1061,
+        758,
+        651
+      ]
+    },
+    "B": {
+      "clients_opened": 750,
+      "attempts": 1351,
+      "successes": 870,
+      "payment_conversion": 0.6439674315321984,
+      "cluster_variance": 0.0001723269858802167,
+      "clients_with_success": 603,
+      "client_conversion": 0.804,
+      "funnel_counts": [
+        1351,
+        1194,
+        960,
+        870
+      ]
+    }
+  },
+  "effect": 0.14626100951384974,
+  "standard_error": 0.018907996516202754,
+  "z": 7.735404932432417,
+  "p_value_two_sided": 1.0307449909581952e-14,
+  "delta_ci_95": [
+    0.10920201732228352,
+    0.18332000170541596
+  ],
+  "bootstrap_ci_95": [
+    0.10949873329864163,
+    0.18323075504115321
+  ],
+  "bootstrap_iterations": 30000,
+  "bootstrap_seed": 42,
+  "audit": {
+    "users": 1504,
+    "payments": 2661,
+    "included": 2659,
+    "unknown_user_or_group": 1,
+    "group_conflicts": 1,
+    "outside_window_or_missing_open": 0,
+    "invalid_step_order": 0,
+    "assigned_by_group": {
+      "A": 752,
+      "B": 751
+    },
+    "assignment_srm_p_value": 0.979421561620276
+  },
+  "effect_without_conflict_clients": 0.14588020888491454
+}
